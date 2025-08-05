@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(../img/background.jpeg); /*para colocar img no css (../)*/
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+section.menu{
+    width: 60vw;
+    height: auto;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    background-color: rgb(214,178,185,0.5);
+    border: 2px ridge #BD9AD6;
+    border-radius: 16px;
+}
+ul.nav{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ul.nav li{
+    border: 2px inset white;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    border-radius: 16px; /*borda arredondada*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.5%; /* deixa o botao mais cheio*/
+    cursor: pointer; /*muda o cursor para mao apontando*/
+}
+ul.nav li a{
+    text-decoration: none; /*tira o sublinhado*/
+    color: black;
+    font-size:2vw;
+    display: block; /*faz com que o botao seja inteiro*/
+}
+ul.nav li:hover{
+    background-image:url(../img/gif.gif);
+    background-position: center;
+}
+ul.nav li:hover a{
+    color: black;
+}
+section.musica{
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 16px;
+    border: 2px ridge white;
+    display: flex;
+    flex-wrap: wrap;    
+}
+#letra{
+    color:white;
+    font-size: 1vw;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#titulo{
+    color: white;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+} 
+#video{
+   width: 50%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+#titulo h1{
+    font-size: 2.3vw;
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+}
+#video video{
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+}
+#letra pre{
+    color: white;
+    margin-top: 3%;
+    font-size: 1.5vw;
+    font-family: "Quicksand", sans-serif;
+
+}
+section.link a{
+    color: white;    
+}
+section.link a span{
+    font-size: 4vw;
+}
+section.tabela{
+    width: 70vw;
+    margin-top: 10vh;
+    height: 30vh;
+    margin-left: 15vw;
+    background-color: rgb(0, 0, 0),0.5;
+    border: 3px ridge white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;    
+}
+section.tabela table{
+    color: black;
+    background-color: pink;
+    width: 60%;
+
+}
+section.tabela table th{
+    background-color: black;
+    color: white;  
+    border: 2px ridge white; 
+    font-size: 1.5vw;  
+    font-family: "Franklin Gothic Medium", sans-serif;               
+}
+section.tabela table td{
+    border: 2px solid black;
+    font-size: 1.1vw;
+    font-family: "Franklin Gothic Medium", sans-serif;
+}
+section.mapa iframe{
+     margin-top: 5vh;
+     margin-bottom: 5vh;
+     box-shadow: 10px 6px 6px violet;
+}
+body.background{
+    background-image:url(../img/background.png);
+}
+#descrição{
+    color: white;
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-size: 1vw;
+    flex-wrap: wrap;
+}
+#resumo{
+    color: white;
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 1vw;
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;;
+
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:90vw;
+    height: 10vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+#titulo h1{
+    color:red;
+    font-family: "eras ITC", sans-serif; 
+    width: 100;
+    height: 10vh;
+    flex-wrap: wrap;
+    
+}
+#cima{
+    width: 90vw;
+    height: 40vh;
+    margin-left:5vw;
+    display: flex;
+    justify-content: center;
+}
+#descricao{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#gif{
+   width:50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100%;
+}
+#gif img{
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+}
+#baixo{
+    width: 90vw;
+    height: 40vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+#baixo resumo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid red;
+    
+}
+#video{
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}     
+body.saturno{
+    background-image:url(../img/saturnobackground.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+section.titulo_saturno{
+    width: 80vw;
+	height: 7vh;
+	margin-left: 10vw;
+	background-color:rgb(255,255,255,0.5);
+	border:2px ridge silver;
+	border-radius: 16px;
+	margin-top:5vh;
+	flex-direction: column;
+	text-align: center;
+}
+section.titulo_saturno h1{
+	font-size:2.3vw;
+	font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+}
+section.conteudo_saturno{
+    width: 80vw;
+    height: 50vh;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 16px;
+}
+#imagem_saturno{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imagem_saturno img{
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+}
+#texto{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 16px;
+}
+#texto_saturno{
+    width: 105%;
+    height: 50%;
+    background-color: silver;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+#texto_saturno ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: circle;
+    font-family: "Tempus Sans ITC", sans-serif;
+    font-size: 1.2vw;
+    color: black;
+    width: 60%;
+}
+#sobre{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#sobre p{
+    background-image: linear-gradient(to right, purple, blue); /*coloca fundo gradiente pra letra*/
+    -webkit-background-clip: text;
+    background-clip: text; /*corta o texto*/
+    color: transparent; /*tira a cor da letra*/
+    font-size: 1.2vw;
+    font-weight: bold; /*negrito*/
+    font-family: cursive;
+}
