@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.topo{
+	width: 100vw;
+	height: 10vh;
+	border-bottom: 1px solid lightgray;
+	/*background-color: lightgray;*/
+}
+#logo{
+	width: 10%;
+	height: 99%;
+}
+#logo img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+    margin-left: 2vw;
+}
+#menu{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+ul.nav{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	width: 90%;
+	height: 30%;
+}
+ul.nav li{
+	position: relative;
+	width: 13%;
+	margin-right: 6%;
+	border:1px solid lightgray;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+}
+ul.nav li a{
+	color: black;
+	font-family:"Impact",monospace;
+	font-size: 1.2vw;
+	text-decoration: none;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.nav li a:hover{
+    background-color: rgba(67, 149, 243, 0.5);
+    transition: 0.5s;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+ul.nav li a .material-symbols-outlined{
+    font-size: 1.2vw;
+}
+ul.nav li ol{
+    display: none;
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+ul.nav li ol li{
+    float: none;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-top: 0px;
+    height: auto;
+    background-color: white;
+}
+ul.nav li:hover ol{
+    display: block;
+}
+section.conteudo{
+    width: 100vw;
+    height: 89vh;
+
+}
+section.conteudo iframe{
+    width: 100%;
+    height: 100%;
+    border: 0px
+}
+section.home{
+    width: 100vw;
+    height: 100vh;
+    animation-name: zoom;
+    animation-duration: 4s;    
+}
+section.home img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+@keyframes zoom{
+    0%{
+        width: 20vw;
+        height: 20vh;
+        margin-left: 40vw;
+        margin-top: 40vh;
+    }
+    50%{
+        width: 50vw;
+        height: 50vh;
+        margin-left: 25vw;
+        margin-top: 25vh;
+        box-shadow: 10px 5px 6px black;
+    }
+}
+section.musica{
+    width: 90vw;
+    height: auto;
+    border: 1px solid lightgray;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+#titulo_musica{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo_musica h1{
+    font-size: 2vw;
+    font-family: "Jokerman", fantasy;
+}
+#video{
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#video video{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+#letra{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+#letra pre{
+    margin-top: 5%;
+    font-size: 1.3vw;
+    font-family: "Comic Sans", sans-serif;
+
+}
+section.mapa{
+    width: 70vw;
+    margin-left: 15vw;
+    height: 80vh;
+    margin-top: 10vh;
+    border: 1px solid lightgray;
+    flex-direction: column;
+}
+#titulo_mapa{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo_mapa h1{
+    font-size: 2vw;
+    font-family: helvetica;
+}
+#titulo_mapa .material-symbols-outlined{
+    font-size: 2vw;
+    color: red;
+}
+#mapa{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mapa iframe{
+    width: 600px;
+    height: 450px;
+    /* max-width: 100%;
+    max-height: 200%;*/
+}
+@media (max-width:750px){
+    #mapa iframe{
+        width: auto;
+        height: auto;
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+
+ 
+
+
