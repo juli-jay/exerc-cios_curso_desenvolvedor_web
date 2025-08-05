@@ -1,0 +1,160 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width: 90vw;
+	margin-left:5vw;
+	height: 10vh;
+	background-color: #400101;
+	border:;
+}
+#logo{
+	width: 8%;
+	height: 100%;
+	
+}
+#logo img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+#navegacao{
+	width: 92%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#botoes{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+}
+div.botao{
+	width: 15%;
+	margin-left: 2%;
+	text-align: center;
+	background-color: ##A40718;
+	border-radius:16px;
+	border:1px ridge #090B0D;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+div.botao a{
+	text-decoration: none;
+	color:##85302D;
+	font-family:'Comic Sans MS',serif;
+	font-size:1vw;
+	display: block;
+}
+div.botao:hover{
+	background-color:##460909;
+	border:1px ridge #090B0D;
+}
+div.botao:hover a{
+	color:#460909;
+}
+section.conteudo{
+	width: 80vw;
+	margin-left:5vw;
+	height: 75vh;
+}
+section.conteudo iframe{
+	width: 100%;
+	height: 100%;
+	border:2px;
+}
+section.rodape{
+	width: 90vw;
+	height: 10vh;
+	margin-left: 5vw;
+	background-color:#530E1B;
+}
+#texto{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+#texto p{
+	font-size:1.0vw;
+	color: #6F0E20;
+	font-family:"Trebuchet MS",helvetica;
+}
+#sobre{
+	border-left:2px dotted #090B0D;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+#sobre p{
+	color:#730220;
+	font-family:"Lucida Handwriting",cursive;
+	font-size: 1.2vw;
+}
+section.resultado,form{
+	width: 70vw;
+	height: auto;
+	min-height: 30vh;
+	margin-left: 15vw;
+	background-color:#730220;
+	border:2px ridge #090B0D;
+	border-radius: 16px;
+	box-shadow: 10px 10px 7px black;
+	margin-top:15vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+section.resultado h1{
+	font-family: "Jokerman",fantasy;
+	font-size: 2.2vw;
+	color: #BF0426;
+}
+section.resultado p,form p{
+	font-family: "Comic Sans MS",sans-serif;
+	font-size: 1.2vw;
+	color: #BF0426;
+}
+input[type=submit]{
+	background-color: #8C1616;
+	border-radius:16px;
+	border:1px ridge #090B0D;
+	padding: 0.2%;
+	width: 15%;
+	color: #090B0D;
+}
+a.link{
+	font-family: "Lucida Handwriting",cursive;
+	color: #BF0426;
+}
+body.gothic{
+	background-image:url(../img/gothic.jpg);
+	background-repeat: no repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    border: 0px;
+
+}
+
+
+
+
+
+
+
+
