@@ -1,0 +1,23 @@
+body{
+	background-color:black;
+}
+h1{
+	text-align: center;
+	fonte-size: 24pt;
+	font-family:"Monotype Corsiva", cursive;
+	text-decoration: underline;
+	color:gray;
+
+}
+
+p {
+	color: white;
+	text-align: justify;
+	font-family:"arial" sans-serif;
+	font-size: 13pt;
+}
+img{
+	width: 60ww;
+	height: 60vh;
+	margin-left: 20vw;
+}
